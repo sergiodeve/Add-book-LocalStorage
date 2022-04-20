@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    background-color: rgb(85, 85, 85);
+}
+    
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin:20px;
+}
+
+.flex{
+    display: flex;
+    width: 90%;
+    min-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.inputs-form{
+    width: 92%;
+    margin-top: 8px;
+    padding: 8px;
+}
+
+.inputs-form:hover{
+    outline-color: red;
+}
+
+.container{
+    min-width: 300px;
+    color: rgb(255, 255, 255);
+    padding: 30px 30px;
+    width: 20%;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: rgb(20, 101, 155);
+    margin-bottom: 80px;
+    -webkit-box-shadow: 0px 4px 14px 0px #000000; 
+    box-shadow: 0px 4px 14px 0px #000000;
+}
+
+h2{
+    margin: 0px 0px 20px;
+}
+
+.lista-libros{
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+    width: 70%;
+}
+
+.list-books{
+    padding: 12px 30px;
+    background-color: rgb(255, 255, 248);
+    text-align: left;
+    border-radius: 10px;
+    border-bottom: 2px solid rgb(25, 96, 161);
+    width: 80%;
+    margin:10px auto;
+    
+}
+    
+.boton{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(196, 125, 45);
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0px 4px 14px 0px #000000; 
+    box-shadow: 0px 4px 14px 0px #000000;
+}
+
+.boton:hover{
+    opacity: 0.7;
+    color: black;
+}
+    
+.form{
+    display: flex;
+    flex-direction: column;
+    text-align:start;
+}
+
+.inp{
+    margin-bottom: 30px;
+}
+
+.mensaje{
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(33, 158, 50);
+    padding: 8px 12px;
+    border: 1px solid white;
+}
+
+.error{
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(160, 31, 31);
+    padding: 10px 10px;
+    border: 1px solid white;
+}
+
+.added{
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(36, 146, 51);
+    padding: 10px 10px;
+    border: 1px solid white;
+}
+
+
+.boton-delete{
+    margin-left:40px;
+    background-color: rgb(194, 65, 65);
+    border-radius: 5px;
+    border: solid 1px rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    padding: 3px;
+}
+
+ 
+/* checked menu */
+
+.menu{
+    display: none;
+}
+    

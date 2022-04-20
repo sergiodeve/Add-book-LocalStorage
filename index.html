@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- icons google -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Oswald:wght@400;600&family=Poppins:ital,wght@1,500&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- estilos css -->
+    <link rel="stylesheet" href="style.css">
+    <title>lista de libros</title>
+</head>
+<body>
+    <h1>List of Books</h1>
+
+        
+   <!--  <div class="dark-light-mode" id="dark-light-mode">
+        <label for="">dark/licgt</label>
+        <input type="radio" value="light-dark">
+    </div> -->
+
+<div class="flex">
+
+    <div class="container">
+        <h2>Add a book</h2>
+        <span class="material-icons">
+            auto_stories
+        </span>
+        <form action="" class="form" id="form">
+            <div class="inp titulo">
+                <label for="titulo" class="titulo">Titulo</label>
+                <br>
+                <input type="text" class="inputs-form" name="titulo" id="titulo">
+    
+            </div>
+    
+            <div class="inp autor">
+                <label for="autor" class="autor">Autor</label>
+                <br>
+                <input type="text" class="inputs-form" name="autor" id="autor">
+    
+            </div>
+    
+            <div class="inp genero">
+                <label for="genero" class="genero">Genero</label>
+                <br>
+                <input type="text" class="inputs-form" name="genero" id="genero">
+    
+            </div>
+
+            <div class="inp year">
+                <label for="year" class="year">Año de lectura</label>
+                <br>
+                <input type="text" class="inputs-form" name="year" id="year">
+    
+            </div>
+    
+            <button type="submit" class="boton" id="boton" >ENVIAR</button>
+
+            <div id="error"></div>
+        </form>
+    </div>
+
+    <div class="lista-libros" id="lista-libros"> </div>
+    
+    
+</div>
+            
+            
+
+
+
+
+            
+            
+
+
+    <script src="index.js"></script>
+</body>
+</html>
